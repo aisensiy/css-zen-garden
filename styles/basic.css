@@ -14,7 +14,7 @@ html, body {
 body {
   color: #325050;
   background: #fff;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: "Open Sans";
 }
 
 a {
@@ -35,26 +35,26 @@ abbr {
 }
 
 h1 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Open Sans";
 }
 
 h3 {
   color: #2e484c;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Open Sans";
 }
 
 .intro a, .intro a:visited {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Open Sans";
 }
 
 /* icon fonts */
 @font-face {
-	font-family: 'verdemoderna';
-	src:url('verdemoderna.eot');
-	src:url('verdemoderna.eot?#iefix') format('embedded-opentype'),
-		url('verdemoderna.woff') format('woff'),
-		url('verdemoderna.ttf') format('truetype'),
-		url('verdemoderna.svg#verdemoderna') format('svg');
+	font-family: "verdemoderna";
+	src:url("verdemoderna.eot");
+	src:url("verdemoderna.eot?#iefix") format("embedded-opentype"),
+		url("verdemoderna.woff") format("woff"),
+		url("verdemoderna.ttf") format("truetype"),
+		url("verdemoderna.svg#verdemoderna") format("svg");
 	font-weight: normal;
 	font-style: normal;
 } 

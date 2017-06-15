@@ -1,24 +1,20 @@
 {
-    "test_count": 5, 
+    "test_count": 4, 
     "test_cases": [
         {
-            "name": " \u203a\u203a Index Page", 
+            "name": " \u203a\u203a Header", 
             "passed": true
         }, 
         {
-            "name": " \u203a\u203a Index Page", 
-            "passed": false
-        }, 
-        {
-            "name": " \u203a\u203a Index Page", 
+            "name": " \u203a\u203a Footer", 
             "passed": true
         }, 
         {
-            "name": " \u203a\u203a Index Page", 
+            "name": " \u203a\u203a Sidebar", 
             "passed": true
         }, 
         {
-            "name": " \u203a\u203a Index Page", 
+            "name": " \u203a\u203a Content", 
             "passed": true
         }
     ]
