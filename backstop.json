@@ -1,0 +1,43 @@
+{
+  "id": "prod_test",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1300,
+      "height": 1000
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Index Page",
+      "url": "http://localhost:5000",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        "header",
+        "footer",
+        ".summary",
+        "aside",
+        "#css-zen-garden"
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "onBefore.js",
+      "onReadyScript": "onReady.js"
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "casper_scripts": "backstop_data/casper_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "casperFlags": [],
+  "engine": "phantomjs",
+  "report": ["browser", "CI"],
+  "debug": false
+}

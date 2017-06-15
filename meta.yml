@@ -1,0 +1,26 @@
+freeze_files:
+    - meta.yml
+    - backstop_data/bitmaps_reference/
+    - backstop_data/casper_scripts/
+    - package.json
+    - .drone.yml
+    - .report.json
+    - styles/basic.css
+    - styles/enso.svg
+    - styles/normalize.css
+    - styles/verdemoderna.eot
+    - styles/verdemoderna.svg
+    - styles/verdemoderna.ttf
+    - styles/verdemoderna.woff
+    - backstop.json
+    - package.json
+    - README.md
+    - index.html
+    - index.js
+    - package-lock.json
+    - screenshot.png
+    - webpack.config.js
+    - postcss.config.js
+report_files:
+    - xunit.xml
+report_target: .report.json
