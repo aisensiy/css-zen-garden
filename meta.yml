@@ -3,6 +3,7 @@ freeze_files:
     - backstop_data/bitmaps_reference/
     - backstop_data/casper_scripts/
     - package.json
+    - package-lock.json
     - .drone.yml
     - .report.json
     - styles/basic.css
@@ -17,10 +18,12 @@ freeze_files:
     - README.md
     - index.html
     - index.js
-    - package-lock.json
     - screenshot.png
     - webpack.config.js
     - postcss.config.js
+    - build/fonts/
+    - build/fonts.css
+    - build/normalize.css
 report_files:
     - xunit.xml
 report_target: .report.json
