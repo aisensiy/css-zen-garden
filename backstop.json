@@ -9,6 +9,22 @@
   ],
   "scenarios": [
     {
+      "label": "All",
+      "url": "http://localhost:5000",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 1000,
+      "misMatchThreshold" : 2,
+      "requireSameDimensions" : false,
+      "onBeforeScript": "onBefore.js",
+      "onReadyScript": "onReady.js"
+    },
+    {
       "label": "Header",
       "url": "http://localhost:5000",
       "hideSelectors": [],
@@ -35,8 +51,8 @@
       ],
       "readyEvent": null,
       "delay": 1000,
-      "misMatchThreshold" : 2,
-      "requireSameDimensions" : true,
+      "misMatchThreshold" : 3,
+      "requireSameDimensions" : false,
       "onBeforeScript": "onBefore.js",
       "onReadyScript": "onReady.js"
     },
@@ -47,7 +63,7 @@
       "removeSelectors": [],
       "selectorExpansion": true,
       "selectors": [
-        ".design-selection"
+        ".sidebar"
       ],
       "readyEvent": null,
       "delay": 1000,
@@ -63,7 +79,7 @@
       "removeSelectors": [],
       "selectorExpansion": true,
       "selectors": [
-        ".summary"
+        ".main"
       ],
       "readyEvent": null,
       "delay": 1000,
